@@ -24,13 +24,11 @@ export function TotalWorks({ setInputValue, task, setTask, inputRef }) {
   return (
     <ol className="todolist">
       {task.map((item) => (
-        <div
-          key={item.id}
-          className={`listitem ${item.isChaked ? "done" : ""}`}>
-          <li>
+        <div key={item.id} className="listitem ">
+          <li className={`${item.isChaked ? "done" : ""}`}>
             <p>{item.contain}</p>
           </li>
-          <div>
+          <div className="d-flex flex-nowrap">
             <button
               className="border-0 editbtn"
               onClick={() => handleEdit(item)}>
