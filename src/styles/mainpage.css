@@ -1,12 +1,12 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(to right, #081b4a, #360707);
+    background-image: linear-gradient(to right, #081b4ad7, #360707dc);
 }
 
 .main-box {
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-top: 5rem;
     background-color: #f0efef;
@@ -89,7 +89,7 @@ input:focus {
 
 @media (max-width:1200px) {
     .main-box {
-        width: 40%;
+        width: 60%;
     }
 }
 

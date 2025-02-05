@@ -1,8 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In this to-do app, you can store your data until you choose to delete it. We use localStorage to save data permanently.
+Each function is encapsulated in its own component to make the code easier to understand.
+To avoid prop drilling, we have used Redux Toolkit and created a separate slice for each state. This makes the app much easier to understand and manage.

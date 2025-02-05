@@ -7,13 +7,11 @@ export function GetCurrentDateTime() {
     const intervalId = setInterval(() => {
       let cur = new Date();
       let dateOption = {
-        weekday: "long",
         month: "long",
         day: "numeric",
         year: "numeric",
         hour: "numeric",
         minute: "numeric",
-        second: "numeric",
       };
       let formatter = new Intl.DateTimeFormat("en-us", dateOption);
       setCurrentDateTime(formatter.format(cur));
